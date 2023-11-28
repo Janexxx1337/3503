@@ -1,29 +1,35 @@
 # 3503
 
-This template should help get you started developing with Vue 3 in Vite.
+# Приложение для поиска пользователей
+  Это простое веб-приложение, созданное с использованием Vue.js и Express.js, позволяет пользователям искать пользователей по электронной почте и/или номеру телефона.
 
-## Recommended IDE Setup
+# Функции
+  Поиск пользователей по электронной почте.
+  Поиск пользователей по номеру телефона.
+  Отображение результатов поиска.
+  Анимация загрузки во время ожидания ответа от сервера.
+  Валидация входных данных на стороне клиента.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Требования
+  Node.js
+  Vue.js
+  Установка и запуск
+  Следуйте этим шагам, чтобы установить и запустить приложение:
+## Клонируйте репозиторий:
+  ```
+  git clone https://github.com/Janexxx1337/3503.git
+  ```
 
-## Customize configuration
+## Установите зависимости для сервера:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+ ```
+ npm install
+ ```
 
-## Project Setup
+## Запустите сервер:
 
-```sh
-npm install
+``` npm run dev
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+# Использование
+Введите электронную почту и/или номер телефона в соответствующие поля и нажмите кнопку "Искать". Если пользователь найден, результаты будут отображены под формой.
